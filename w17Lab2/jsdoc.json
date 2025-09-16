@@ -1,0 +1,17 @@
+{
+"source": {
+"include": ["main.js", "tutorials/README.md"],
+"includePattern": ".+\\.js(doc|x)?$|.+\\.md$",
+"excludePattern": "(^|\\/|\\\\)_"
+},
+"opts": {
+"destination": "./docs",
+"recurse": true,
+"tutorials": "tutorials"
+},
+"templates": {
+"default": {
+"includeDate": false
+}
+}
+}
